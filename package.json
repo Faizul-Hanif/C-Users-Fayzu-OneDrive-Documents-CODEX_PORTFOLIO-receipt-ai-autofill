@@ -1,0 +1,27 @@
+{
+  "name": "receipt-ai-autofill",
+  "version": "1.0.0",
+  "description": "Receipt-to-form auto-fill web app for AI intern assessment.",
+  "main": "server.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "node server.js",
+    "preview": "node server.js --dist",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "receipt",
+    "ai",
+    "ocr",
+    "gemini",
+    "vercel"
+  ],
+  "author": "Faizul",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
