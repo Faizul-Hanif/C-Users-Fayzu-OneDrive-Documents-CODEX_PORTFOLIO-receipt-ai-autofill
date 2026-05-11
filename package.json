@@ -4,10 +4,9 @@
   "description": "Receipt-to-form auto-fill web app for AI intern assessment.",
   "main": "server.js",
   "scripts": {
-    "build": "echo \"No build needed\"",
-    "dev": "node server.js",
-    "preview": "node server.js --dist",
-    "start": "node server.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [
     "receipt",
@@ -19,11 +18,15 @@
   "author": "Faizul",
   "license": "MIT",
   "engines": {
-    "node": ">=20"
+    "node": "20.x"
   },
   "dependencies": {
-    "express": "^4.18.2",
+    "@vitejs/plugin-react": "latest",
     "cors": "^2.8.5",
-    "dotenv": "^17.4.2"
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
   }
 }
